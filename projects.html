@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<Title> Projects </Title>
+	</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+table, th, td {
+  border: 5px solid black;
+  box-shadow: 2px 2px 4px #000000;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+/* social links */
+.fa {
+  padding: 7px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+/* centralize wattson */
+	img {
+ 		display: block;
+  		margin-left: auto;
+	  	margin-right: auto;
+	}
+
+/* background png */
+	body  {
+	  background-image: url("background.jpg");
+	  background-repeat: no-repeat;
+	  background-attachment: fixed;
+	}
+
+/* navigation bars */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #123;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #234;
+}
+
+body {
+  font-family: Cursive;
+}
+
+
+
+article {
+  float: center;
+  padding: 0px 10px;
+  width:100%;
+  background-color: #123;
+  color: white;
+  text-align: left;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #123;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+	</style>
+
+<body>
+
+
+<header>
+	<h1 align= "center"; style= "font-family: Crusive; font-size: 70px"><Strong><em><table class = "center">
+<tr>
+<th>Nikesh Shrestha</th>
+</tr>
+</table>
+</h1>
+</em></strong></h1>
+	<h2 align= "center"; style= "font-family: Crusive; font-size: 35px"><em> Engineering Projects Completed </em></h1>		
+</header>
+
+<ul>
+  <li><a href="index.html"> Home </a></li>
+  <li><a href="aboutme.html">About Me</a></li>
+  <li><a href="projects.html">Projects</a></li>
+  <li><a href="hobbies.html"> Hobbies </a></li>
+  <li style="float:right"><a href="#" class="fa fa-twitter"></a></li>
+  <li style="float:right"><a href="https://www.facebook.com/dabanggnik" class="fa fa-facebook"></a></li>
+  <li style="float:right"><a href="https://www.instagram.com/nike.stha08/?hl=en" class="fa fa-instagram"></a></li>
+  <li style="float:right"><a href="https://www.linkedin.com/in/nikesh-shrestha-3518ba11b/" class="fa fa-linkedin"></a></li>
+
+</ul>
+
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>PROJECTS</h1>
+<hr>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> CAD/3D</button>
+  <button class="btn" onclick="filterSelection('cars')"> Class Projects</button>
+  <button class="btn" onclick="filterSelection('people')"> Current</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="Picture1.jpg" alt="Lego Car" style="width:100%">
+      <h4>Lego Car</h4>
+      <p>Lego Car Modeled in Solidworks.</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="Picture2.jpg" alt="3d Lego" style="width:100%">
+      <h4>3d Print</h4>
+      <p>3D Print of the Lego Car.</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+    <img src="pic4.png" alt="Skeleton of the Toy Helicopter" style="width:100%">
+      <h4>Helicopter Skeleton</h4>
+      <p>CAD model showing the internal part of the helicopter.</p>
+    </div>
+  </div>
+<p>.</p>
+  <div class="column nature">
+    <div class="content">
+      <img src="pic5.png" alt="helicopter" style="width:100%">
+      <h4>Helicopter Exterior</h4>
+      <p>CAD model showing the exterior of the helicopter.</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="OSV.jpg" alt="Car" style="width:100%">
+      <h4>Over Sand Vehicle</h4>
+      <p>Project to design and build an OSV which is able to pick up material and identify its magnetic characteristic.</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+    <img src="Truss.jpg" alt="truss project" style="width:100%">
+      <h4>Building a Truss Competition.</h4>
+      <p>In class competition to build the most efficient truss (lowest weight to load ratio). </p>
+    </div>
+  </div>
+  <br>
+  <div class="column people">
+    <div class="content">
+      <img src="current.jpg" alt="Current Project" style="width:100%">
+      <h4>Current Project</h4>
+      <p>Project Relating to sensors and automation. Still gathering ideas phase. </p>
+    </div>
+  </div>
+
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+
+<section>
+
+  <article>
+<h3 style="font-size: 20px"> <strong> CAD/ 3D Prints Tinkering </stong></h3>
+<p style = "text-indent: 40px"><em> While first learning to use AutoCAD, I wanted to challenge myself outside of the classroom. So, I designed and 3D-printed a Lego car, and created a CAD-model of a toy Helicopter. </em></p>
+<br>
+<h3 style="font-size: 20px"> <strong> Class Projects </stong></h3>
+<p style = "text-indent: 40px"><em> Being a part of an engineering curriculum, I have been involed in many class proejcts where I apply the knowledge learned in that course. 
+By being involved in these projects, I have learned and developed my skill to become an engineer. Projects are the main part of my education which has helped me
+grow into a better engineer.  </em></p>
+<br>
+<h3 style="font-size: 20px"> <strong> Current Project </stong></h3>
+<p style = "text-indent: 40px"><em> Currently I am working in a project with sensors and actuators. I am in the phase of deciding between which project to make:</em></p>
+<p style = "text-indent: 40px"><em> Sensor that helps go through a maze, or </em></p>
+<p style = "text-indent: 40px"><em> Sensor that detects sunlight and plays an alarm. </em></p>
+<br>
+
+
+</article>
+</section>
+
+<footer>
+  <p>Created by Nikesh Shrestha</p>
+</footer>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>
